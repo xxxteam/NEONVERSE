@@ -1,0 +1,92 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #000;
+    color: #ffcc00;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffcc00;
+    text-shadow: 0 0 10px #ffcc00;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: #00ffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar nav ul li a:hover {
+    color: #ff00ff;
+}
+
+.neon-btn {
+    background-color: #00ffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 0 10px #00ffff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.neon-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+.hero {
+    background: url('https://wallpaperaccess.com/full/2551029.jpg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 20px #ffcc00;
+}
+
+.cyber-section {
+    margin: 40px;
+    padding: 20px;
+    border: 2px solid #ffcc00;
+    box-shadow: 0 0 10px #ffcc00;
+    text-shadow: 0 0 5px #ffcc00;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid #00ffff;
+    background-color: transparent;
+    color: #00ffff;
+    box-shadow: 0 0 5px #00ffff;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+input:focus {
+    box-shadow: 0 0 15px #ff00ff;
+    outline: none;
+}
